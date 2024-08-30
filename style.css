@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: green;
+    font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+nav{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: transparent;
+    color: red;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.Home img{
+    position: relative;
+    right: -1000px;
+    margin-top: 60px;
+}
+.Home h1{
+    font-size: 70px;
+}
+.Home {
+    margin-bottom: 150px;
+}
+.Home button{
+    background-color: transparent;
+    color: red;
+    box-shadow: none;
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+ a:hover{
+    background-color: red;
+    color:white;
+}
+.Home button  :hover{
+    background-color: red;
+    color:white;
+}
+.text{
+    margin-top: -200px;
+    margin-left: 20px;
+}
+#Seed-Germination{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.about{
+    max-width: 500px;
+    border: 2px solid black;
+    padding: 20px;
+    right: 0;
+}
+.w{
+    align-items: center;
+}
